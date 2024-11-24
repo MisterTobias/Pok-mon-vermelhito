@@ -85,5 +85,5 @@ TypeEffects:
 	db DARK,         GHOST,        SUPER_EFFECTIVE
 	db DARK,         PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db DARK,         FIGHTING,     NOT_VERY_EFFECTIVE
-	db DARK,         FAIRY,        NO_EFFECT
+	db DARK,         FAIRY,        NOT_VERY_EFFECTIVE
 	db -1 ; end		
