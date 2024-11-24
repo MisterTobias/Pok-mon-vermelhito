@@ -8,9 +8,10 @@ DEF PHYSICAL EQU const_value
 	const POISON       ; $03
 	const GROUND       ; $04
 	const ROCK         ; $05
-	const STEEL        ; $06
+	const BIRD         ; $06
 	const BUG          ; $07
 	const GHOST        ; $08
+ const STEEL        ; $09
 
 DEF UNUSED_TYPES EQU const_value
 	const_next 20
