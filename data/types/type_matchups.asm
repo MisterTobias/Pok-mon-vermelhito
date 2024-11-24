@@ -98,5 +98,8 @@ TypeEffects:
 	db FIGHTING,     STEEL,        SUPER_EFFECTIVE
 	db GROUND,       STEEL,        SUPER_EFFECTIVE 
 	db POISON,       STEEL,        NO_EFFECT 
-
+	db POISON,       FAIRY,        SUPER_EFFECTIVE
+ db DRAGON,       FAIRY,        NO_EFFECT
+	db BUG,          FAIRY,        NOT_VERY_EFFECTIVE
+	db FIGHTING,     FAIRY,        NOT_VERY_EFFECTIVE
 	db -1 ; end		
