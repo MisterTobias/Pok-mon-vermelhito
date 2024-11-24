@@ -24,7 +24,6 @@ ENDR
 	dw .Dragon
  dw .Dark
  dw .Fairy
-
 	assert_table_length NUM_TYPES
 
 .Normal:   db "NORMAL@"
