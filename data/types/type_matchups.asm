@@ -82,5 +82,8 @@ TypeEffects:
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
-	db DARK,         GHOST,        SUPER_EFFECTIVE 
+	db DARK,         GHOST,        SUPER_EFFECTIVE
+	db DARK,         PSYCHIC_TYPE, SUPER_EFFECTIVE
+	db DARK,         FIGHTING,     NOT_VERY_EFFECTIVE
+	db DARK,         FAIRY,        NO_EFFECT
 	db -1 ; end		
