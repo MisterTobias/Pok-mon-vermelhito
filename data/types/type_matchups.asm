@@ -86,4 +86,17 @@ TypeEffects:
 	db DARK,         PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db DARK,         FIGHTING,     NOT_VERY_EFFECTIVE
 	db DARK,         FAIRY,        NOT_VERY_EFFECTIVE
+	db FIRE,         STEEL,        SUPER_EFFECTIVE
+	db GRASS,        GRASS,        NOT_VERY_EFFECTIVE
+	db ICE,          STEEL,        NOT_VERY_EFFECTIVE
+	db FLYING,       STEEL,        NOT_VERY_EFFECTIVE
+	db PSYCHIC_TYPE, STEEL,        NOT_VERY_EFFECTIVE
+	db BUG,          STEEL,        NOT_VERY_EFFECTIVE
+	db ROCK          STEEL,        NOT_VERY_EFFECTIVE
+	db DRAGON,       STEEL,        NOT_VERY_EFFECTIVE
+	db FAIRY,        STEEL,        NOT_VERY_EFFECTIVE
+	db FIGHTING,     STEEL,        SUPER_EFFECTIVE
+	db GROUND,       STEEL,        SUPER_EFFECTIVE 
+	db POISON,       STEEL,        NO_EFFECT 
+
 	db -1 ; end		
