@@ -7,7 +7,7 @@ TypeNames:
 	dw .Poison
 	dw .Ground
 	dw .Rock
-	dw .Bird
+	dw .Steel
 	dw .Bug
 	dw .Ghost
 
@@ -22,6 +22,8 @@ ENDR
 	dw .Psychic
 	dw .Ice
 	dw .Dragon
+ dw .Dark
+ dw .Fairy
 
 	assert_table_length NUM_TYPES
 
@@ -37,7 +39,9 @@ ENDR
 .Ice:      db "ICE@"
 .Ground:   db "GROUND@"
 .Rock:     db "ROCK@"
-.Bird:     db "BIRD@"
+.Steel:    db "STEEL@"
 .Bug:      db "BUG@"
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
+.Dark:     dB "DARK@"
+.Fairy:    dB "Fairy@"
